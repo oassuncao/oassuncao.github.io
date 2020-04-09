@@ -1,0 +1,47 @@
+apiVersion: v1
+entries:
+  meceap:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-04-09T17:08:16.736104-03:00"
+    dependencies:
+    - name: common
+      repository: file://../common
+      version: 0.1.1
+    - name: common-meceap
+      repository: file://../common-meceap
+      version: 0.1.0
+    description: MECEAP Helm Chart
+    digest: 7be8f2120ea7dd2f2525d19ec5929ff4b5e61ef58efc64a0a1eae1f3236953e5
+    home: https://me.com.br
+    maintainers:
+    - email: silvio.junior@me.com.br
+      name: Silvio Assuncao
+    name: meceap
+    type: application
+    urls:
+    - https://me-helm-chart.storage.googleapis.com/meceap-0.1.0.tgz
+    version: 0.1.0
+  meceap-restore:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-04-09T17:08:16.737079-03:00"
+    dependencies:
+    - name: common
+      repository: file://../common
+      version: 0.1.1
+    - name: common-meceap
+      repository: file://../common-meceap
+      version: 0.1.0
+    description: MECEAP Restore Helm Chart
+    digest: ad18a182cbdafb7761bebef5b8facda8e8c6937373b109041c22a21ee9e66ce3
+    home: https://me.com.br
+    maintainers:
+    - email: silvio.junior@me.com.br
+      name: Silvio Assuncao
+    name: meceap-restore
+    type: application
+    urls:
+    - https://me-helm-chart.storage.googleapis.com/meceap-restore-0.1.0.tgz
+    version: 0.1.0
+generated: "2020-04-09T17:08:16.733583-03:00"
